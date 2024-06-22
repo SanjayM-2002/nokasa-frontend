@@ -2,7 +2,7 @@ import React from 'react';
 
 const Box1 = () => {
   return (
-    <div className='bg-separator1 bg-cover bg-center h-screen flex items-center justify-center'>
+    <div className='bg-separator1 bg-cover bg-center h-[125vh] flex items-center justify-center'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
         <div className='flex flex-col justify-center items-start gap-4 ps-8'>
           <img src='pricing-pattern5.png' className='w-10 h-10' />
