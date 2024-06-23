@@ -3,7 +3,7 @@ import React from 'react';
 const TextBox = ({ title, details, imgSrc }) => {
   return (
     <>
-      <div className='flex'>
+      <div className='flex flex-col gap-4'>
         <div className='flex flex-row py-4 items-center'>
           <div className='flex justify-center items-center'>
             <img src={imgSrc} className='w-10 h-10' alt={imgSrc} />
@@ -15,6 +15,7 @@ const TextBox = ({ title, details, imgSrc }) => {
             </div>
           </div>
         </div>
+        <div className='bg-white px-24 justify-center items-center h-1'></div>
       </div>
     </>
   );

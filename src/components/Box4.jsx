@@ -45,7 +45,7 @@ const Box4 = () => {
   ];
   return (
     <>
-      <div className='flex flex-col bg-separator1 bg-cover bg-center justify-center gap-12 py-12 mt-24'>
+      <div className='flex flex-col bg-separator1 bg-cover bg-center justify-center gap-12 pt-12 pb-24 mt-24'>
         <div className='flex flex-col justify-around gap-4 items-center'>
           <div className='flex place-content-end ml-[50vh]'>
             <img src='stroke1.png' className='w-16 h-16 ' />
@@ -75,13 +75,13 @@ const Box4 = () => {
             </div>
           </div>
           <div className='flex flex-1 flex-col items-center justify-center'>
-            <img src='companies.png' alt='companies' className='w-64 h-64 ' />
+            <img src='companies.png' alt='companies' className='w-80 h-80' />
           </div>
         </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 py-4 justify-center'>
           <div className='flex flex-1 flex-col items-center justify-center'>
-            <img src='chart2.png' alt='chart2' className='w-64 h-64 ' />
+            <img src='chart2.png' alt='chart2' className='w-80 h-80 ' />
           </div>
           <div className='flex flex-col flex-1 gap-6 items-center px-12'>
             <h1 className='text-white font-bold text-left text-5xl'>
